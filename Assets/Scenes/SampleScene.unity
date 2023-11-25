@@ -248,8 +248,8 @@ GameObject:
   m_Component:
   - component: {fileID: 123377059}
   - component: {fileID: 123377058}
-  - component: {fileID: 123377061}
   - component: {fileID: 123377060}
+  - component: {fileID: 123377061}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -353,7 +353,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba9c62ccd8c121849b0131e4f20559bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Yincrement: 0.2
+  Yincrement: 2
+  speed: 50
+  minHeight: -2
+  maxHeight: 2
 --- !u!1 &138048042
 GameObject:
   m_ObjectHideFlags: 0

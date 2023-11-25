@@ -4,31 +4,31 @@ using System.Security.Cryptography;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class playercontrol : MonoBehaviour
+public class Player: MonoBehaviour
 {
-    private new Vector2 targetpos;
+    private new Vector2 targetPos;
     public float Yincrement;
 
-    // Start is called before the first frame update
-    void Start()
+    public float speed;
+    public float minHeight;
+    public float maxHeight;
+
+    
+    private void Update()
+
     {
         
-    }
 
-    // Update is called once per frame
-    void Update()
-
-    {
-        if (Input.GetKey(KeyCode.W)) 
+        if (Input.GetKeyDown(KeyCode.W) && transform.position.y < maxHeight) 
         {
-            targetpos = new Vector2(transform.position.x, transform.position.y + Yincrement);
-            transform.position = targetpos;
+            targetPos = new Vector2(transform.position.x, transform.position.y + Yincrement);
+            transform.position = targetPos;
         }
 
-        else if (Input.GetKey(KeyCode.S))
+        else if (Input.GetKeyDown(KeyCode.S) && transform.position.y > minHeight)
         {
-            targetpos = new Vector2(transform.position.x, transform.position.y - Yincrement);
-            transform.position = targetpos;
+            targetPos = new Vector2(transform.position.x, transform.position.y - Yincrement);
+            transform.position = targetPos;
         }
     }
 }

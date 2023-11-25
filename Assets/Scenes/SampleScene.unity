@@ -2961,6 +2961,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1536877857}
+  - component: {fileID: 1536877859}
   - component: {fileID: 1536877858}
   m_Layer: 0
   m_Name: meteorBrown_big4
@@ -3036,6 +3037,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1536877859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1536877856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2c414497c09d1e41bac751942a2eef3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
 --- !u!1 &1541047629
 GameObject:
   m_ObjectHideFlags: 0

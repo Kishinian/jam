@@ -6,16 +6,19 @@ public class Meteor : MonoBehaviour
 {
     public float speed = 5f; // Скорость движения препятствия
 
+    public int damage = 1;
+
     private void Update()
     {
         transform.Translate(Vector2.left * speed * Time.deltaTime); // Движение препятствия вперед
     }
     // Проверка столкновения с игроком
-    private void OnTriggerEnter2D(Collider2D other)
+    void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
             // Уменьшение скорости движения препятствия
+            other.GetComponent<Player>().health -= damage;
             speed *= 0.8f;
             Destroy(gameObject);
         }

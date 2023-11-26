@@ -145,6 +145,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5419184848060537057}
   - component: {fileID: 893421834851437851}
+  - component: {fileID: 5598494977465200999}
   m_Layer: 0
   m_Name: Meteor
   m_TagString: Meteor
@@ -182,3 +183,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   damage: 1
+--- !u!114 &5598494977465200999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7936569237923446134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95c0c810b20343e468b670c138bab3b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lifetime: 10

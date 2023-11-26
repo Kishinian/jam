@@ -4,17 +4,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class scenes : MonoBehaviour
 {
-    public int scenenumber;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
+ 
     public void START()
     {
-        SceneManager.LoadScene(scenenumber);
+        SceneManager.LoadScene(1);
     }
 }

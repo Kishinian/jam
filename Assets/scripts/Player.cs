@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Security.Cryptography;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Player: MonoBehaviour
 {
@@ -14,11 +15,14 @@ public class Player: MonoBehaviour
     public float maxHeight;
 
     public int health = 5;
+    public Text healthDisplay;
     
 
     private void Update()
 
     {
+        healthDisplay.text = health.ToString();
+        if (health <= 0)
         transform.position = Vector2.MoveTowards(transform.position, targetPos, speed * Time.deltaTime);
 
         if (Input.GetKeyDown(KeyCode.W) && transform.position.y < maxHeight) 

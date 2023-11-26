@@ -23,6 +23,10 @@ public class Player: MonoBehaviour
     {
         healthDisplay.text = health.ToString();
         if (health <= 0)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+        
         transform.position = Vector2.MoveTowards(transform.position, targetPos, speed * Time.deltaTime);
 
         if (Input.GetKeyDown(KeyCode.W) && transform.position.y < maxHeight) 

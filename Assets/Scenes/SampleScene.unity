@@ -411,7 +411,7 @@ MonoBehaviour:
   minHeight: -3.8
   maxHeight: -0.8
   health: 5
-  healthDisplay: {fileID: 0}
+  healthDisplay: {fileID: 1581708924}
 --- !u!50 &123377062
 Rigidbody2D:
   serializedVersion: 4

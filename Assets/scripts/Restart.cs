@@ -12,7 +12,7 @@ public class Restart : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
-        score.text = ("¬аш счет:") + sm.score.ToString();
+        score.text = $"¬аш счет: {sm.score}";
     }
 
     // Update is called once per frame

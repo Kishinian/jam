@@ -25,8 +25,8 @@ public class Player: MonoBehaviour
         healthDisplay.text = health.ToString();
         if (health <= 0)
         {
-           panel.SetActive(false);
-            Destroy(panel);
+           panel.SetActive(true);
+            Destroy(gameObject);
         }
         
         transform.position = Vector2.MoveTowards(transform.position, targetPos, speed * Time.deltaTime);

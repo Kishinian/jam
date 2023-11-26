@@ -10,13 +10,13 @@ public class Restart : MonoBehaviour
     public Score sm;
     
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-        score.text = ("¬аш счет: ") + sm.score.ToString();
+        score.text = ("¬аш счет:") + sm.score.ToString();
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {

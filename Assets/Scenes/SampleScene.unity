@@ -1733,18 +1733,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: d7cffddcbc0cc8f4ebe6e28eb9804082, type: 3}
-    m_FontSize: 110
+    m_FontSize: 100
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 300
-    m_Alignment: 1
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: SCORE
+  m_Text: 
 --- !u!222 &775374931
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2269,7 +2269,7 @@ GameObject:
   - component: {fileID: 1033898605}
   - component: {fileID: 1033898604}
   m_Layer: 0
-  m_Name: SCORE
+  m_Name: SCOREcount
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3375,7 +3375,7 @@ Transform:
   m_GameObject: {fileID: 1517258899}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.88, y: 0.28, z: 0.022932505}
+  m_LocalPosition: {x: -9.31, y: 0.28, z: 0.022932505}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5228,7 +5228,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 120dd9d7b43a3b24c8dcd4b668565aec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: {fileID: 1033898604}
+  score: {fileID: 775374930}
   sm: {fileID: 1517258900}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

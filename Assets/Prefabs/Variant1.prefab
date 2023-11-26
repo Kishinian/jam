@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6926368177168709244}
+  - component: {fileID: 5130748653822566305}
   m_Layer: 0
   m_Name: Point1
   m_TagString: Untagged
@@ -25,12 +26,25 @@ Transform:
   m_GameObject: {fileID: 1975973897498105055}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.84, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6865761351079214509}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5130748653822566305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1975973897498105055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3de74ae8eaa014d41b89c4733869e986, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meteor: {fileID: 7936569237923446134, guid: 02bcc29cce507374fac60e8815522670, type: 3}
 --- !u!1 &2642572851004199207
 GameObject:
   m_ObjectHideFlags: 0
@@ -40,6 +54,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6201256088939610917}
+  - component: {fileID: 676849028599409602}
   m_Layer: 0
   m_Name: Point2
   m_TagString: Untagged
@@ -56,12 +71,25 @@ Transform:
   m_GameObject: {fileID: 2642572851004199207}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2, z: 0}
+  m_LocalPosition: {x: 0, y: 1.21, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6865761351079214509}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &676849028599409602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2642572851004199207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3de74ae8eaa014d41b89c4733869e986, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meteor: {fileID: 7936569237923446134, guid: 02bcc29cce507374fac60e8815522670, type: 3}
 --- !u!1 &8580289258954197306
 GameObject:
   m_ObjectHideFlags: 0
@@ -71,7 +99,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6865761351079214509}
-  - component: {fileID: 7398425698976096335}
   m_Layer: 0
   m_Name: Variant1
   m_TagString: Untagged
@@ -96,16 +123,3 @@ Transform:
   - {fileID: 6201256088939610917}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7398425698976096335
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8580289258954197306}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3de74ae8eaa014d41b89c4733869e986, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  meteor: {fileID: 7936569237923446134, guid: 02bcc29cce507374fac60e8815522670, type: 3}

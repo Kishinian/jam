@@ -405,10 +405,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba9c62ccd8c121849b0131e4f20559bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetPos: {x: 1.34, y: -2.08}
   Yincrement: 2
   speed: 50
-  minHeight: -2
-  maxHeight: 0
+  minHeight: -3.8
+  maxHeight: -0.8
   health: 5
 --- !u!50 &123377062
 Rigidbody2D:

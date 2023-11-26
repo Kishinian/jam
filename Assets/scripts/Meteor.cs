@@ -19,7 +19,6 @@ public class Meteor : MonoBehaviour
         {
             // ”меньшение скорости движени€ преп€тстви€
             other.GetComponent<Player>().health -= damage;
-            speed *= 0.8f;
             Destroy(gameObject);
         }
     }

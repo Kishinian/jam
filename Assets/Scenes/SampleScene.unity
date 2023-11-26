@@ -1020,7 +1020,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: d7cffddcbc0cc8f4ebe6e28eb9804082, type: 3}
-    m_FontSize: 110
+    m_FontSize: 90
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -1028,10 +1028,11 @@ MonoBehaviour:
     m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: '"Space" - START AGAIN'
+  m_Text: "\"Space\" - \u041D\u0410\u0427\u0410\u0422\u042C \u0417\u0410\u041D\u041E\u0412\u041E\n\"Esc\"
+    - \u0412\u042B\u0425\u041E\u0414 \u0412 \u041C\u0415\u041D\u042E"
 --- !u!222 &419443483
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2826,7 +2827,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: YOU LOSE
+  m_Text: "\u0412\u042B \u041F\u0420\u041E\u0418\u0413\u0420\u0410\u041B\u0418"
 --- !u!222 &1223491678
 CanvasRenderer:
   m_ObjectHideFlags: 0

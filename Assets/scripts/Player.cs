@@ -16,7 +16,8 @@ public class Player: MonoBehaviour
 
     public int health = 5;
     public Text healthDisplay;
-    
+    public GameObject panel;
+
 
     private void Update()
 
@@ -24,7 +25,8 @@ public class Player: MonoBehaviour
         healthDisplay.text = health.ToString();
         if (health <= 0)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+           panel.SetActive(false);
+            Destroy(panel);
         }
         
         transform.position = Vector2.MoveTowards(transform.position, targetPos, speed * Time.deltaTime);
